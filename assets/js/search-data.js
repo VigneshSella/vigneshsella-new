@@ -64,11 +64,11 @@ ninja.data = [{
               window.location.href = "/projects/control-optimization/";
             },},{id: "projects-automating-scientific-knowledge-extraction-and-modeling-askem",
           title: 'Automating Scientific Knowledge Extraction and Modeling (ASKEM)',
-          description: "DARPA&#39;s ASKEM program — AI tools to create, sustain, and enhance complex models and simulators. Built and tested the Python backend for PyCIEMSS using ODE-based climate and COVID-19 epidemiology models.",
+          description: "DARPA&#39;s ASKEM program: AI tools to create, sustain, and enhance complex models and simulators. Built and tested the Python backend for PyCIEMSS using ODE-based climate and COVID-19 epidemiology models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/darpa-askem/";
             },},{id: "projects-lecturegpt-an-open-source-gpt-3-based-ai-assistant",
-          title: 'LectureGPT — an open-source GPT-3 based AI-assistant',
+          title: 'LectureGPT: an open-source GPT-3 based AI-assistant',
           description: "A LLM fine-tuned on course lecture notes with retrieval augmented generation, creating a conversational AI-assistant for students to ask specific questions about their course material.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/lecturegpt/";
