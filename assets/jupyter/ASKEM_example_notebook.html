@@ -1,243 +1,388 @@
-<!DOCTYPE html>
+<!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>4a4297d59f3b4f659f55932c7c85d35f</title>
-  <style>
-    html {
-      line-height: 1.5;
-      font-family: Georgia, serif;
-      font-size: 20px;
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 1em;
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>4a4297d59f3b4f659f55932c7c85d35f</title>
+    <style>
+      html {
+        line-height: 1.5;
+        font-family: Georgia, serif;
+        font-size: 20px;
+        color: #1a1a1a;
+        background-color: #fdfdfd;
       }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
       body {
+        margin: 0 auto;
+        max-width: 36em;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        hyphens: auto;
+        overflow-wrap: break-word;
+        text-rendering: optimizeLegibility;
+        font-kerning: normal;
+      }
+      @media (max-width: 600px) {
+        body {
+          font-size: 0.9em;
+          padding: 1em;
+        }
+        h1 {
+          font-size: 1.8em;
+        }
+      }
+      @media print {
+        body {
+          background-color: transparent;
+          color: black;
+          font-size: 12pt;
+        }
+        p,
+        h2,
+        h3 {
+          orphans: 3;
+          widows: 3;
+        }
+        h2,
+        h3,
+        h4 {
+          page-break-after: avoid;
+        }
+      }
+      p {
+        margin: 1em 0;
+      }
+      a {
+        color: #1a1a1a;
+      }
+      a:visited {
+        color: #1a1a1a;
+      }
+      img {
+        max-width: 100%;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin-top: 1.4em;
+      }
+      h5,
+      h6 {
+        font-size: 1em;
+        font-style: italic;
+      }
+      h6 {
+        font-weight: normal;
+      }
+      ol,
+      ul {
+        padding-left: 1.7em;
+        margin-top: 1em;
+      }
+      li > ol,
+      li > ul {
+        margin-top: 0;
+      }
+      blockquote {
+        margin: 1em 0 1em 1.7em;
+        padding-left: 1em;
+        border-left: 2px solid #e6e6e6;
+        color: #606060;
+      }
+      code {
+        font-family: Menlo, Monaco, "Lucida Console", Consolas, monospace;
+        font-size: 85%;
+        margin: 0;
+      }
+      pre {
+        margin: 1em 0;
+        overflow: auto;
+      }
+      pre code {
+        padding: 0;
+        overflow: visible;
+        overflow-wrap: normal;
+      }
+      .sourceCode {
         background-color: transparent;
-        color: black;
-        font-size: 12pt;
+        overflow: visible;
       }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
+      hr {
+        background-color: #1a1a1a;
+        border: none;
+        height: 1px;
+        margin: 1em 0;
       }
-      h2, h3, h4 {
-        page-break-after: avoid;
+      table {
+        margin: 1em 0;
+        border-collapse: collapse;
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+        font-variant-numeric: lining-nums tabular-nums;
       }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
-      font-size: 85%;
-      margin: 0;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
+      table caption {
+        margin-bottom: 0.75em;
+      }
+      tbody {
+        margin-top: 0.5em;
+        border-top: 1px solid #1a1a1a;
+        border-bottom: 1px solid #1a1a1a;
+      }
+      th {
+        border-top: 1px solid #1a1a1a;
+        padding: 0.25em 0.5em 0.25em 0.5em;
+      }
+      td {
+        padding: 0.125em 0.5em 0.25em 0.5em;
+      }
+      header {
+        margin-bottom: 4em;
+        text-align: center;
+      }
+      #TOC li {
+        list-style: none;
+      }
+      #TOC ul {
+        padding-left: 1.3em;
+      }
+      #TOC > ul {
+        padding-left: 0;
+      }
+      #TOC a:not(:hover) {
+        text-decoration: none;
+      }
+      code {
+        white-space: pre-wrap;
+      }
+      span.smallcaps {
+        font-variant: small-caps;
+      }
+      div.columns {
+        display: flex;
+        gap: min(4vw, 1.5em);
+      }
+      div.column {
+        flex: auto;
+        overflow-x: auto;
+      }
+      div.hanging-indent {
+        margin-left: 1.5em;
+        text-indent: -1.5em;
+      }
+      ul.task-list {
+        list-style: none;
+      }
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1.6em;
+        vertical-align: middle;
+      }
+      pre > code.sourceCode {
+        white-space: pre;
+        position: relative;
+      }
+      pre > code.sourceCode > span {
+        display: inline-block;
+        line-height: 1.25;
+      }
+      pre > code.sourceCode > span:empty {
+        height: 1.2em;
+      }
+      .sourceCode {
+        overflow: visible;
+      }
+      code.sourceCode > span {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      div.sourceCode {
+        margin: 1em 0;
+      }
+      pre.sourceCode {
+        margin: 0;
+      }
+      @media screen {
+        div.sourceCode {
+          overflow: auto;
+        }
+      }
+      @media print {
+        pre > code.sourceCode {
+          white-space: pre-wrap;
+        }
+        pre > code.sourceCode > span {
+          text-indent: -5em;
+          padding-left: 5em;
+        }
+      }
+      pre.numberSource code {
+        counter-reset: source-line 0;
+      }
+      pre.numberSource code > span {
+        position: relative;
+        left: -4em;
+        counter-increment: source-line;
+      }
+      pre.numberSource code > span > a:first-child::before {
+        content: counter(source-line);
+        position: relative;
+        left: -1em;
+        text-align: right;
+        vertical-align: baseline;
+        border: none;
+        display: inline-block;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        padding: 0 4px;
+        width: 4em;
         color: #aaaaaa;
       }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      {   }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-    code span.at { color: #7d9029; } /* Attribute */
-    code span.bn { color: #40a070; } /* BaseN */
-    code span.bu { color: #008000; } /* BuiltIn */
-    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #4070a0; } /* Char */
-    code span.cn { color: #880000; } /* Constant */
-    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-    code span.dt { color: #902000; } /* DataType */
-    code span.dv { color: #40a070; } /* DecVal */
-    code span.er { color: #ff0000; font-weight: bold; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #40a070; } /* Float */
-    code span.fu { color: #06287e; } /* Function */
-    code span.im { color: #008000; font-weight: bold; } /* Import */
-    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-    code span.op { color: #666666; } /* Operator */
-    code span.ot { color: #007020; } /* Other */
-    code span.pp { color: #bc7a00; } /* Preprocessor */
-    code span.sc { color: #4070a0; } /* SpecialChar */
-    code span.ss { color: #bb6688; } /* SpecialString */
-    code span.st { color: #4070a0; } /* String */
-    code span.va { color: #19177c; } /* Variable */
-    code span.vs { color: #4070a0; } /* VerbatimString */
-    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
-</head>
-<body>
-<section
-id="pyciemss-optimize-interface-with-different-intervention-types"
-class="cell markdown">
-<h1>PyCIEMSS optimize interface with different intervention types</h1>
-</section>
-<section id="load-dependencies-and-interfaces" class="cell markdown">
-<h3>Load dependencies and interfaces</h3>
-</section>
-<div class="cell code" data-execution_count="7">
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+      pre.numberSource {
+        margin-left: 3em;
+        border-left: 1px solid #aaaaaa;
+        padding-left: 4px;
+      }
+      div.sourceCode {
+      }
+      @media screen {
+        pre > code.sourceCode > span > a:first-child::before {
+          text-decoration: underline;
+        }
+      }
+      code span.al {
+        color: #ff0000;
+        font-weight: bold;
+      } /* Alert */
+      code span.an {
+        color: #60a0b0;
+        font-weight: bold;
+        font-style: italic;
+      } /* Annotation */
+      code span.at {
+        color: #7d9029;
+      } /* Attribute */
+      code span.bn {
+        color: #40a070;
+      } /* BaseN */
+      code span.bu {
+        color: #008000;
+      } /* BuiltIn */
+      code span.cf {
+        color: #007020;
+        font-weight: bold;
+      } /* ControlFlow */
+      code span.ch {
+        color: #4070a0;
+      } /* Char */
+      code span.cn {
+        color: #880000;
+      } /* Constant */
+      code span.co {
+        color: #60a0b0;
+        font-style: italic;
+      } /* Comment */
+      code span.cv {
+        color: #60a0b0;
+        font-weight: bold;
+        font-style: italic;
+      } /* CommentVar */
+      code span.do {
+        color: #ba2121;
+        font-style: italic;
+      } /* Documentation */
+      code span.dt {
+        color: #902000;
+      } /* DataType */
+      code span.dv {
+        color: #40a070;
+      } /* DecVal */
+      code span.er {
+        color: #ff0000;
+        font-weight: bold;
+      } /* Error */
+      code span.ex {
+      } /* Extension */
+      code span.fl {
+        color: #40a070;
+      } /* Float */
+      code span.fu {
+        color: #06287e;
+      } /* Function */
+      code span.im {
+        color: #008000;
+        font-weight: bold;
+      } /* Import */
+      code span.in {
+        color: #60a0b0;
+        font-weight: bold;
+        font-style: italic;
+      } /* Information */
+      code span.kw {
+        color: #007020;
+        font-weight: bold;
+      } /* Keyword */
+      code span.op {
+        color: #666666;
+      } /* Operator */
+      code span.ot {
+        color: #007020;
+      } /* Other */
+      code span.pp {
+        color: #bc7a00;
+      } /* Preprocessor */
+      code span.sc {
+        color: #4070a0;
+      } /* SpecialChar */
+      code span.ss {
+        color: #bb6688;
+      } /* SpecialString */
+      code span.st {
+        color: #4070a0;
+      } /* String */
+      code span.va {
+        color: #19177c;
+      } /* Variable */
+      code span.vs {
+        color: #4070a0;
+      } /* VerbatimString */
+      code span.wa {
+        color: #60a0b0;
+        font-weight: bold;
+        font-style: italic;
+      } /* Warning */
+      .display.math {
+        display: block;
+        text-align: center;
+        margin: 0.5rem auto;
+      }
+    </style>
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <section id="pyciemss-optimize-interface-with-different-intervention-types" class="cell markdown">
+      <h1>PyCIEMSS optimize interface with different intervention types</h1>
+    </section>
+    <section id="load-dependencies-and-interfaces" class="cell markdown">
+      <h3>Load dependencies and interfaces</h3>
+    </section>
+    <div class="cell code" data-execution_count="7">
+      <div class="sourceCode" id="cb1">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> typing <span class="im">import</span> Dict, List</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -257,23 +402,29 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a hr
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyciemss.ouu.qoi <span class="im">import</span> obs_max_qoi, obs_nday_average_qoi</span>
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> copy <span class="im">import</span> deepcopy</span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>smoke_test <span class="op">=</span> <span class="st">&quot;CI&quot;</span> <span class="kw">in</span> os.environ</span></code></pre></div>
-</div>
-<section id="select-model" class="cell markdown">
-<h3>Select model</h3>
-</section>
-<div class="cell code" data-execution_count="8">
-<div class="sourceCode" id="cb2"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>MODEL_PATH <span class="op">=</span> <span class="st">&quot;https://raw.githubusercontent.com/DARPA-ASKEM/simulation-integration/main/data/models/&quot;</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>smoke_test <span class="op">=</span> <span class="st">&quot;CI&quot;</span> <span class="kw">in</span> os.environ</span></code></pre>
+      </div>
+    </div>
+    <section id="select-model" class="cell markdown">
+      <h3>Select model</h3>
+    </section>
+    <div class="cell code" data-execution_count="8">
+      <div class="sourceCode" id="cb2">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>MODEL_PATH <span class="op">=</span> <span class="st">&quot;https://raw.githubusercontent.com/DARPA-ASKEM/simulation-integration/main/data/models/&quot;</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>model_opt1 <span class="op">=</span> os.path.join(MODEL_PATH, <span class="st">&quot;SIR_stockflow.json&quot;</span>)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>model_opt2 <span class="op">=</span> os.path.join(MODEL_PATH, <span class="st">&quot;SEIRHD_NPI_Type1_petrinet.json&quot;</span>)</span></code></pre></div>
-</div>
-<section id="set-parameters-for-sampling" class="cell markdown">
-<h3>Set parameters for sampling</h3>
-</section>
-<div class="cell code" data-execution_count="9">
-<div class="sourceCode" id="cb3"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>start_time <span class="op">=</span> <span class="fl">0.0</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>model_opt2 <span class="op">=</span> os.path.join(MODEL_PATH, <span class="st">&quot;SEIRHD_NPI_Type1_petrinet.json&quot;</span>)</span></code></pre>
+      </div>
+    </div>
+    <section id="set-parameters-for-sampling" class="cell markdown">
+      <h3>Set parameters for sampling</h3>
+    </section>
+    <div class="cell code" data-execution_count="9">
+      <div class="sourceCode" id="cb3">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>start_time <span class="op">=</span> <span class="fl">0.0</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>end_time_SIR <span class="op">=</span> <span class="fl">40.0</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>end_time_SEIRHD <span class="op">=</span> <span class="fl">60.0</span></span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>end_time_SEIRHD2 <span class="op">=</span> <span class="fl">90.0</span></span>
@@ -281,15 +432,17 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a hr
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>num_samples <span class="op">=</span> <span class="dv">3</span> <span class="cf">if</span> smoke_test <span class="cf">else</span> <span class="dv">1000</span></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>num_samples_ouu <span class="op">=</span> <span class="dv">10</span> <span class="cf">if</span> smoke_test <span class="cf">else</span> <span class="dv">1000</span> <span class="co"># controls accuracy of risk estimation in each optimization iteration</span></span>
 <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>maxiter <span class="op">=</span> <span class="dv">0</span> <span class="cf">if</span> smoke_test <span class="cf">else</span> <span class="dv">3</span>    <span class="co"># maximum number of restarts of local convex optimizer leading to maxiter+1 local optimizations</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>maxfeval <span class="op">=</span> <span class="dv">1</span> <span class="cf">if</span> smoke_test <span class="cf">else</span> <span class="dv">30</span>  <span class="co"># maximum number of function evaluations in each instance of local convex optimization</span></span></code></pre></div>
-</div>
-<section id="baseline-samples-before-optimization-from-model-1-sir"
-class="cell markdown">
-<h3>Baseline samples before optimization from model 1 (SIR)</h3>
-</section>
-<div class="cell code" data-execution_count="10">
-<div class="sourceCode" id="cb4"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>start_t <span class="op">=</span> time.time()</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>maxfeval <span class="op">=</span> <span class="dv">1</span> <span class="cf">if</span> smoke_test <span class="cf">else</span> <span class="dv">30</span>  <span class="co"># maximum number of function evaluations in each instance of local convex optimization</span></span></code></pre>
+      </div>
+    </div>
+    <section id="baseline-samples-before-optimization-from-model-1-sir" class="cell markdown">
+      <h3>Baseline samples before optimization from model 1 (SIR)</h3>
+    </section>
+    <div class="cell code" data-execution_count="10">
+      <div class="sourceCode" id="cb4">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>start_t <span class="op">=</span> time.time()</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>sample_results1 <span class="op">=</span> pyciemss.sample(</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    model_opt1,</span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    end_time_SIR,</span>
@@ -303,24 +456,25 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a hr
 <span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Risk associated with QoI:&quot;</span>, sample_results1[<span class="st">&quot;risk&quot;</span>][<span class="st">&quot;I_state&quot;</span>][<span class="st">&quot;risk&quot;</span>])</span>
 <span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot results for all states</span></span>
 <span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>schema <span class="op">=</span> plots.trajectories(sample_results1[<span class="st">&quot;data&quot;</span>], keep<span class="op">=</span><span class="st">&quot;.*_state&quot;</span>, qlow<span class="op">=</span><span class="fl">0.0</span>, qhigh<span class="op">=</span><span class="fl">1.0</span>)</span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre></div>
-<div class="output stream stdout">
-<pre><code>Time taken:  2.329202890396118
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre>
+      </div>
+      <div class="output stream stdout">
+        <pre><code>Time taken:  2.329202890396118
 Risk associated with QoI: [480.3737524414062]
 </code></pre>
-</div>
-<div class="output execute_result" data-execution_count="10">
-<p><img
-src="vertopal_ed73d86613e540ab84c49649ae65c317/9f9c13fa49f40e81fa4d7596882d9921ac3ada41.png" /></p>
-</div>
-</div>
-<section id="baseline-samples-before-optimization-from-model-2-seirhd"
-class="cell markdown">
-<h3>Baseline samples before optimization from model 2 (SEIRHD)</h3>
-</section>
-<div class="cell code" data-execution_count="11">
-<div class="sourceCode" id="cb6"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>start_t <span class="op">=</span> time.time()</span>
+      </div>
+      <div class="output execute_result" data-execution_count="10">
+        <p><img src="vertopal_ed73d86613e540ab84c49649ae65c317/9f9c13fa49f40e81fa4d7596882d9921ac3ada41.png" /></p>
+      </div>
+    </div>
+    <section id="baseline-samples-before-optimization-from-model-2-seirhd" class="cell markdown">
+      <h3>Baseline samples before optimization from model 2 (SEIRHD)</h3>
+    </section>
+    <div class="cell code" data-execution_count="11">
+      <div class="sourceCode" id="cb6">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>start_t <span class="op">=</span> time.time()</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>sample_results2 <span class="op">=</span> pyciemss.sample(</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    model_opt2,</span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    end_time_SEIRHD,</span>
@@ -336,28 +490,27 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a hr
 <span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="co"># display(sample_results2[&quot;data&quot;])</span></span>
 <span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot results for all states</span></span>
 <span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>schema <span class="op">=</span> plots.trajectories(sample_results2[<span class="st">&quot;data&quot;</span>], keep<span class="op">=</span><span class="st">&quot;.*_state&quot;</span>, qlow<span class="op">=</span><span class="fl">0.0</span>, qhigh<span class="op">=</span><span class="fl">1.0</span>)</span>
-<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre></div>
-<div class="output stream stdout">
-<pre><code>Time taken:  4.139211416244507
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre>
+      </div>
+      <div class="output stream stdout">
+        <pre><code>Time taken:  4.139211416244507
 Risk associated with QoI: [4464067.959999998]
 </code></pre>
-</div>
-<div class="output execute_result" data-execution_count="11">
-<p><img
-src="vertopal_ed73d86613e540ab84c49649ae65c317/51d75039ba77e967230e39ad749bae0ae7b7336e.png" /></p>
-</div>
-</div>
-<section id="optimize-interface-with-single-intervention"
-class="cell markdown">
-<h2>Optimize interface with single intervention</h2>
-<h3 id="optimizing-a-single-parameter-value-sir">Optimizing a single
-parameter value (SIR)</h3>
-<p>Minimum change in the intervention parameter from the current value
-to get infections below 200 individuals at 40 days for SIR model</p>
-</section>
-<div class="cell code" data-execution_count="12">
-<div class="sourceCode" id="cb8"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define optimization problem setup</span></span>
+      </div>
+      <div class="output execute_result" data-execution_count="11">
+        <p><img src="vertopal_ed73d86613e540ab84c49649ae65c317/51d75039ba77e967230e39ad749bae0ae7b7336e.png" /></p>
+      </div>
+    </div>
+    <section id="optimize-interface-with-single-intervention" class="cell markdown">
+      <h2>Optimize interface with single intervention</h2>
+      <h3 id="optimizing-a-single-parameter-value-sir">Optimizing a single parameter value (SIR)</h3>
+      <p>Minimum change in the intervention parameter from the current value to get infections below 200 individuals at 40 days for SIR model</p>
+    </section>
+    <div class="cell code" data-execution_count="12">
+      <div class="sourceCode" id="cb8">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define optimization problem setup</span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>observed_params <span class="op">=</span> [<span class="st">&quot;I_state&quot;</span>]</span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>intervention_time <span class="op">=</span> [torch.tensor(<span class="fl">1.0</span>)]</span>
 <span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>intervened_params <span class="op">=</span> [<span class="st">&quot;p_cbeta&quot;</span>]</span>
@@ -393,9 +546,10 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a hr
 <span id="cb8-34"><a href="#cb8-34" aria-hidden="true" tabindex="-1"></a>    solver_options<span class="op">=</span>{<span class="st">&quot;step_size&quot;</span>: <span class="fl">1.</span>},</span>
 <span id="cb8-35"><a href="#cb8-35" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb8-36"><a href="#cb8-36" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Optimal policy:&#39;</span>, opt_result1[<span class="st">&quot;policy&quot;</span>])</span>
-<span id="cb8-37"><a href="#cb8-37" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(opt_result1)</span></code></pre></div>
-<div class="output stream stderr">
-<pre><code> 52%|█████▏    | 62/120 [01:02&lt;01:23,  1.44s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
+<span id="cb8-37"><a href="#cb8-37" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(opt_result1)</span></code></pre>
+      </div>
+      <div class="output stream stderr">
+        <pre><code> 52%|█████▏    | 62/120 [01:02&lt;01:23,  1.44s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
   warnings.warn(
  54%|█████▍    | 65/120 [01:11&lt;02:10,  2.37s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
   warnings.warn(
@@ -408,9 +562,9 @@ C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning:
  62%|██████▏   | 74/120 [01:21&lt;00:55,  1.22s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
   warnings.warn(
  63%|██████▎   | 76/120 [01:21&lt;00:47,  1.07s/it]</code></pre>
-</div>
-<div class="output stream stdout">
-<pre><code>Optimal policy: tensor([0.1940], dtype=torch.float64)
+      </div>
+      <div class="output stream stdout">
+        <pre><code>Optimal policy: tensor([0.1940], dtype=torch.float64)
 {&#39;policy&#39;: tensor([0.1940], dtype=torch.float64), &#39;OptResults&#39;:                     message: [&#39;requested number of basinhopping iterations completed successfully&#39;]
                     success: True
                         fun: 0.15601673345676997
@@ -426,19 +580,20 @@ C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning:
                                 nfev: 7
                                maxcv: 0.0}
 </code></pre>
-</div>
-<div class="output stream stderr">
-<pre><code>
+      </div>
+      <div class="output stream stderr">
+        <pre><code>
 </code></pre>
-</div>
-</div>
-<section id="sample-using-optimal-policy-as-intervention"
-class="cell markdown">
-<h4>Sample using optimal policy as intervention</h4>
-</section>
-<div class="cell code" data-execution_count="13">
-<div class="sourceCode" id="cb12"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Intervention: &quot;</span>, static_parameter_interventions(opt_result1[<span class="st">&quot;policy&quot;</span>]))</span>
+      </div>
+    </div>
+    <section id="sample-using-optimal-policy-as-intervention" class="cell markdown">
+      <h4>Sample using optimal policy as intervention</h4>
+    </section>
+    <div class="cell code" data-execution_count="13">
+      <div class="sourceCode" id="cb12">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Intervention: &quot;</span>, static_parameter_interventions(opt_result1[<span class="st">&quot;policy&quot;</span>]))</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>result1 <span class="op">=</span> pyciemss.sample(</span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    model_opt1,</span>
 <span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>    end_time_SIR,</span>
@@ -453,29 +608,29 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a h
 <span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Risk associated with QoI:&quot;</span>, result1[<span class="st">&quot;risk&quot;</span>][observed_params[<span class="dv">0</span>]][<span class="st">&quot;risk&quot;</span>])</span>
 <span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot results for all states</span></span>
 <span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>schema <span class="op">=</span> plots.trajectories(result1[<span class="st">&quot;data&quot;</span>], keep<span class="op">=</span><span class="st">&quot;.*_state&quot;</span>, qlow<span class="op">=</span><span class="fl">0.0</span>, qhigh<span class="op">=</span><span class="fl">1.0</span>)</span>
-<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre></div>
-<div class="output stream stdout">
-<pre><code>Intervention:  {1.0: {&#39;p_cbeta&#39;: tensor([0.1940])}}
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre>
+      </div>
+      <div class="output stream stdout">
+        <pre><code>Intervention:  {1.0: {&#39;p_cbeta&#39;: tensor([0.1940])}}
 </code></pre>
-</div>
-<div class="output stream stdout">
-<pre><code>Risk associated with QoI: [217.07194946289061]
+      </div>
+      <div class="output stream stdout">
+        <pre><code>Risk associated with QoI: [217.07194946289061]
 </code></pre>
-</div>
-<div class="output execute_result" data-execution_count="13">
-<p><img
-src="vertopal_ed73d86613e540ab84c49649ae65c317/f86419d68e099985be73c79f73f39fcf8dacd198.png" /></p>
-</div>
-</div>
-<section id="optimizing-the-start-time-for-a-single-intervention-sir"
-class="cell markdown">
-<h3>Optimizing the start time for a single intervention (SIR)</h3>
-<p>Maximum delay in the intervention to get infections below 200
-individuals at 40 days for SIR model</p>
-</section>
-<div class="cell code" data-execution_count="14">
-<div class="sourceCode" id="cb15"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define optimization problem setup</span></span>
+      </div>
+      <div class="output execute_result" data-execution_count="13">
+        <p><img src="vertopal_ed73d86613e540ab84c49649ae65c317/f86419d68e099985be73c79f73f39fcf8dacd198.png" /></p>
+      </div>
+    </div>
+    <section id="optimizing-the-start-time-for-a-single-intervention-sir" class="cell markdown">
+      <h3>Optimizing the start time for a single intervention (SIR)</h3>
+      <p>Maximum delay in the intervention to get infections below 200 individuals at 40 days for SIR model</p>
+    </section>
+    <div class="cell code" data-execution_count="14">
+      <div class="sourceCode" id="cb15">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define optimization problem setup</span></span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>observed_params <span class="op">=</span> [<span class="st">&quot;I_state&quot;</span>]</span>
 <span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>intervened_params <span class="op">=</span> [<span class="st">&quot;p_cbeta&quot;</span>]</span>
 <span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>initial_guess_interventions <span class="op">=</span> <span class="fl">5.</span></span>
@@ -510,12 +665,13 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a h
 <span id="cb15-33"><a href="#cb15-33" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb15-34"><a href="#cb15-34" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Optimal policy:&#39;</span>, opt_result2[<span class="st">&quot;policy&quot;</span>])</span>
 <span id="cb15-35"><a href="#cb15-35" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(opt_result2)</span>
-<span id="cb15-36"><a href="#cb15-36" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Intervention: &quot;</span>, static_parameter_interventions(opt_result2[<span class="st">&quot;policy&quot;</span>]))</span></code></pre></div>
-<div class="output stream stderr">
-<pre><code> 36%|███▌      | 43/120 [00:48&lt;01:26,  1.13s/it]</code></pre>
-</div>
-<div class="output stream stdout">
-<pre><code>Optimal policy: tensor([7.6958], dtype=torch.float64)
+<span id="cb15-36"><a href="#cb15-36" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Intervention: &quot;</span>, static_parameter_interventions(opt_result2[<span class="st">&quot;policy&quot;</span>]))</span></code></pre>
+      </div>
+      <div class="output stream stderr">
+        <pre><code> 36%|███▌      | 43/120 [00:48&lt;01:26,  1.13s/it]</code></pre>
+      </div>
+      <div class="output stream stdout">
+        <pre><code>Optimal policy: tensor([7.6958], dtype=torch.float64)
 {&#39;policy&#39;: tensor([7.6958], dtype=torch.float64), &#39;OptResults&#39;:                     message: [&#39;requested number of basinhopping iterations completed successfully&#39;]
                     success: True
                         fun: -7.69576122033028
@@ -532,15 +688,17 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a h
                                maxcv: 9.765624980673238e-06}
 Intervention:  {7.6958: {&#39;p_cbeta&#39;: tensor([0.1500])}}
 </code></pre>
-</div>
-<div class="output stream stderr">
-<pre><code>
+      </div>
+      <div class="output stream stderr">
+        <pre><code>
 </code></pre>
-</div>
-</div>
-<div class="cell code" data-execution_count="15">
-<div class="sourceCode" id="cb19"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>result2 <span class="op">=</span> pyciemss.sample(</span>
+      </div>
+    </div>
+    <div class="cell code" data-execution_count="15">
+      <div class="sourceCode" id="cb19">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>result2 <span class="op">=</span> pyciemss.sample(</span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>    model_opt1,</span>
 <span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>    end_time_SIR,</span>
 <span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>    logging_step_size,</span>
@@ -555,32 +713,32 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a h
 <span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Risk associated with QoI:&quot;</span>, result2[<span class="st">&quot;risk&quot;</span>][observed_params[<span class="dv">0</span>]][<span class="st">&quot;risk&quot;</span>])</span>
 <span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot results for all states</span></span>
 <span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>schema <span class="op">=</span> plots.trajectories(result2[<span class="st">&quot;data&quot;</span>], keep<span class="op">=</span><span class="st">&quot;.*_state&quot;</span>, qlow<span class="op">=</span><span class="fl">0.0</span>, qhigh<span class="op">=</span><span class="fl">1.0</span>)</span>
-<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre></div>
-<div class="output stream stdout">
-<pre><code>Risk associated with QoI: [154.71628662109373]
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre>
+      </div>
+      <div class="output stream stdout">
+        <pre><code>Risk associated with QoI: [154.71628662109373]
 </code></pre>
-</div>
-<div class="output execute_result" data-execution_count="15">
-<p><img
-src="vertopal_ed73d86613e540ab84c49649ae65c317/7d5fbe787891d10d887312b3816ba65d9070152d.png" /></p>
-</div>
-</div>
-<section id="optimize-interface-with-multiple-interventions"
-class="cell markdown">
-<h2>Optimize interface with multiple interventions</h2>
-<h3 id="optimizing-multiple-intervention-values-seirhd">Optimizing
-multiple intervention values (SEIRHD)</h3>
-<p>Minimum change in two intervention parameters from their current
-values to get infections below 30000 individuals at 60 days for SEIRHD
-model</p>
-<ul>
-<li>Intervene on beta_c after 10 days</li>
-<li>Intervene on gamma after 15 days</li>
-</ul>
-</section>
-<div class="cell code" data-execution_count="16">
-<div class="sourceCode" id="cb21"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define optimization problem setup</span></span>
+      </div>
+      <div class="output execute_result" data-execution_count="15">
+        <p><img src="vertopal_ed73d86613e540ab84c49649ae65c317/7d5fbe787891d10d887312b3816ba65d9070152d.png" /></p>
+      </div>
+    </div>
+    <section id="optimize-interface-with-multiple-interventions" class="cell markdown">
+      <h2>Optimize interface with multiple interventions</h2>
+      <h3 id="optimizing-multiple-intervention-values-seirhd">Optimizing multiple intervention values (SEIRHD)</h3>
+      <p>
+        Minimum change in two intervention parameters from their current values to get infections below 30000 individuals at 60 days for SEIRHD model
+      </p>
+      <ul>
+        <li>Intervene on beta_c after 10 days</li>
+        <li>Intervene on gamma after 15 days</li>
+      </ul>
+    </section>
+    <div class="cell code" data-execution_count="16">
+      <div class="sourceCode" id="cb21">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define optimization problem setup</span></span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>observed_params <span class="op">=</span> [<span class="st">&quot;I_state&quot;</span>]</span>
 <span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>intervention_time <span class="op">=</span> [torch.tensor(<span class="fl">10.0</span>), torch.tensor(<span class="fl">15.0</span>)]</span>
 <span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>intervened_params <span class="op">=</span> [<span class="st">&quot;beta_c&quot;</span>, <span class="st">&quot;gamma&quot;</span>]</span>
@@ -617,16 +775,17 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a h
 <span id="cb21-35"><a href="#cb21-35" aria-hidden="true" tabindex="-1"></a>    solver_options<span class="op">=</span>{<span class="st">&quot;step_size&quot;</span>: <span class="fl">1.</span>},</span>
 <span id="cb21-36"><a href="#cb21-36" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb21-37"><a href="#cb21-37" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Optimal policy:&quot;</span>, opt_result3[<span class="st">&quot;policy&quot;</span>])</span>
-<span id="cb21-38"><a href="#cb21-38" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(opt_result3)</span></code></pre></div>
-<div class="output stream stderr">
-<pre><code> 53%|█████▎    | 64/120 [03:57&lt;02:44,  2.94s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
+<span id="cb21-38"><a href="#cb21-38" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(opt_result3)</span></code></pre>
+      </div>
+      <div class="output stream stderr">
+        <pre><code> 53%|█████▎    | 64/120 [03:57&lt;02:44,  2.94s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
   warnings.warn(
  79%|███████▉  | 95/120 [05:28&lt;01:30,  3.63s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
   warnings.warn(
 124it [06:50,  3.31s/it]                         </code></pre>
-</div>
-<div class="output stream stdout">
-<pre><code>Optimal policy: tensor([0.3500, 0.4495], dtype=torch.float64)
+      </div>
+      <div class="output stream stdout">
+        <pre><code>Optimal policy: tensor([0.3500, 0.4495], dtype=torch.float64)
 {&#39;policy&#39;: tensor([0.3500, 0.4495], dtype=torch.float64), &#39;OptResults&#39;:                     message: [&#39;requested number of basinhopping iterations completed successfully&#39;]
                     success: False
                         fun: 0.2494535138541334
@@ -642,19 +801,20 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a h
                                 nfev: 30
                                maxcv: 0.0}
 </code></pre>
-</div>
-<div class="output stream stderr">
-<pre><code>
+      </div>
+      <div class="output stream stderr">
+        <pre><code>
 </code></pre>
-</div>
-</div>
-<section id="sample-using-optimal-policy-as-intervention"
-class="cell markdown">
-<h4>Sample using optimal policy as intervention</h4>
-</section>
-<div class="cell code" data-execution_count="17">
-<div class="sourceCode" id="cb25"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Intervention: &quot;</span>, static_parameter_interventions(opt_result3[<span class="st">&quot;policy&quot;</span>]))</span>
+      </div>
+    </div>
+    <section id="sample-using-optimal-policy-as-intervention" class="cell markdown">
+      <h4>Sample using optimal policy as intervention</h4>
+    </section>
+    <div class="cell code" data-execution_count="17">
+      <div class="sourceCode" id="cb25">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Intervention: &quot;</span>, static_parameter_interventions(opt_result3[<span class="st">&quot;policy&quot;</span>]))</span>
 <span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> pyro.poutine.seed(rng_seed<span class="op">=</span><span class="dv">0</span>):</span>
 <span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>    result3 <span class="op">=</span> pyciemss.sample(</span>
 <span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>        model_opt2,</span>
@@ -671,31 +831,30 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a h
 <span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Risk associated with QoI:&quot;</span>, result3[<span class="st">&quot;risk&quot;</span>][observed_params[<span class="dv">0</span>]][<span class="st">&quot;risk&quot;</span>])</span>
 <span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot results for all states</span></span>
 <span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a>schema <span class="op">=</span> plots.trajectories(result3[<span class="st">&quot;data&quot;</span>], keep<span class="op">=</span><span class="st">&quot;I_state&quot;</span>, qlow<span class="op">=</span><span class="fl">0.0</span>, qhigh<span class="op">=</span><span class="fl">1.0</span>)</span>
-<span id="cb25-18"><a href="#cb25-18" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre></div>
-<div class="output stream stdout">
-<pre><code>Intervention:  {10.0: {&#39;beta_c&#39;: tensor([0.3500])}, 15.0: {&#39;gamma&#39;: tensor([0.4495])}}
+<span id="cb25-18"><a href="#cb25-18" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre>
+      </div>
+      <div class="output stream stdout">
+        <pre><code>Intervention:  {10.0: {&#39;beta_c&#39;: tensor([0.3500])}, 15.0: {&#39;gamma&#39;: tensor([0.4495])}}
 Risk associated with QoI: [33007.13003906248]
 </code></pre>
-</div>
-<div class="output execute_result" data-execution_count="17">
-<p><img
-src="vertopal_ed73d86613e540ab84c49649ae65c317/09c1d3ca0cc493e4990852a2fb632af68e69e1fb.png" /></p>
-</div>
-</div>
-<section
-id="optimizing-for-start-times-of-multiple-interventions-seirhd"
-class="cell markdown">
-<h3>Optimizing for start times of multiple interventions (SEIRHD)</h3>
-<p>Maximum delay in starting two interventions to get infections below
-30000 individuals at 60 days for SEIRHD model</p>
-<ul>
-<li>Intervene on beta_c to be 0.15</li>
-<li>Intervene on gamma to be 0.4</li>
-</ul>
-</section>
-<div class="cell code" data-execution_count="18">
-<div class="sourceCode" id="cb27"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define optimization problem setup</span></span>
+      </div>
+      <div class="output execute_result" data-execution_count="17">
+        <p><img src="vertopal_ed73d86613e540ab84c49649ae65c317/09c1d3ca0cc493e4990852a2fb632af68e69e1fb.png" /></p>
+      </div>
+    </div>
+    <section id="optimizing-for-start-times-of-multiple-interventions-seirhd" class="cell markdown">
+      <h3>Optimizing for start times of multiple interventions (SEIRHD)</h3>
+      <p>Maximum delay in starting two interventions to get infections below 30000 individuals at 60 days for SEIRHD model</p>
+      <ul>
+        <li>Intervene on beta_c to be 0.15</li>
+        <li>Intervene on gamma to be 0.4</li>
+      </ul>
+    </section>
+    <div class="cell code" data-execution_count="18">
+      <div class="sourceCode" id="cb27">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define optimization problem setup</span></span>
 <span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>observed_params <span class="op">=</span> [<span class="st">&quot;I_state&quot;</span>]</span>
 <span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>intervened_params <span class="op">=</span> [<span class="st">&quot;beta_c&quot;</span>, <span class="st">&quot;gamma&quot;</span>]</span>
 <span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>initial_guess_interventions <span class="op">=</span> [torch.tensor(<span class="fl">10.</span>), torch.tensor(<span class="fl">10.</span>)]</span>
@@ -730,9 +889,10 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a h
 <span id="cb27-33"><a href="#cb27-33" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb27-34"><a href="#cb27-34" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Optimal policy:&#39;</span>, opt_result4[<span class="st">&quot;policy&quot;</span>])</span>
 <span id="cb27-35"><a href="#cb27-35" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(opt_result4)</span>
-<span id="cb27-36"><a href="#cb27-36" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Intervention: &quot;</span>, static_parameter_interventions(opt_result4[<span class="st">&quot;policy&quot;</span>]))</span></code></pre></div>
-<div class="output stream stderr">
-<pre><code>  8%|▊         | 9/120 [00:27&lt;05:11,  2.81s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
+<span id="cb27-36"><a href="#cb27-36" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Intervention: &quot;</span>, static_parameter_interventions(opt_result4[<span class="st">&quot;policy&quot;</span>]))</span></code></pre>
+      </div>
+      <div class="output stream stderr">
+        <pre><code>  8%|▊         | 9/120 [00:27&lt;05:11,  2.81s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
   warnings.warn(
  10%|█         | 12/120 [00:32&lt;04:09,  2.31s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
   warnings.warn(
@@ -819,9 +979,9 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a h
 121it [03:52,  1.53s/it]                         C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
   warnings.warn(
 124it [03:55,  1.90s/it]</code></pre>
-</div>
-<div class="output stream stdout">
-<pre><code>Optimal policy: tensor([39.0000,  6.0327], dtype=torch.float64)
+      </div>
+      <div class="output stream stdout">
+        <pre><code>Optimal policy: tensor([39.0000,  6.0327], dtype=torch.float64)
 {&#39;policy&#39;: tensor([39.0000,  6.0327], dtype=torch.float64), &#39;OptResults&#39;:                     message: [&#39;requested number of basinhopping iterations completed successfully&#39;]
                     success: False
                         fun: -45.032607877335636
@@ -838,17 +998,19 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a h
                                maxcv: 0.006562499991559889}
 Intervention:  {39.0: {&#39;beta_c&#39;: tensor([0.1500])}, 6.0327: {&#39;gamma&#39;: tensor([0.4000])}}
 </code></pre>
-</div>
-<div class="output stream stderr">
-<pre><code>
+      </div>
+      <div class="output stream stderr">
+        <pre><code>
 C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\interfaces.py:978: UserWarning: Optimal intervention policy does not satisfy constraints.Check if the risk_bounds value is appropriate for given problem.Otherwise, try (i) different initial_guess_interventions, (ii) increasing maxiter/maxfeval,and/or (iii) increase n_samples_ouu to improve accuracy of Monte Carlo risk estimation. 
   warnings.warn(
 </code></pre>
-</div>
-</div>
-<div class="cell code" data-execution_count="19">
-<div class="sourceCode" id="cb31"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Intervention: &quot;</span>, static_parameter_interventions(opt_result4[<span class="st">&quot;policy&quot;</span>]))</span>
+      </div>
+    </div>
+    <div class="cell code" data-execution_count="19">
+      <div class="sourceCode" id="cb31">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Intervention: &quot;</span>, static_parameter_interventions(opt_result4[<span class="st">&quot;policy&quot;</span>]))</span>
 <span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>start_t <span class="op">=</span> time.time()</span>
 <span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> pyro.poutine.seed(rng_seed<span class="op">=</span><span class="dv">0</span>):</span>
 <span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>    result4 <span class="op">=</span> pyciemss.sample(</span>
@@ -867,39 +1029,38 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a h
 <span id="cb31-17"><a href="#cb31-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Risk associated with QoI:&quot;</span>, result4[<span class="st">&quot;risk&quot;</span>][observed_params[<span class="dv">0</span>]][<span class="st">&quot;risk&quot;</span>])</span>
 <span id="cb31-18"><a href="#cb31-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot results for all states</span></span>
 <span id="cb31-19"><a href="#cb31-19" aria-hidden="true" tabindex="-1"></a>schema <span class="op">=</span> plots.trajectories(result4[<span class="st">&quot;data&quot;</span>], keep<span class="op">=</span><span class="st">&quot;I_state&quot;</span>, qlow<span class="op">=</span><span class="fl">0.0</span>, qhigh<span class="op">=</span><span class="fl">1.0</span>)</span>
-<span id="cb31-20"><a href="#cb31-20" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre></div>
-<div class="output stream stdout">
-<pre><code>Intervention:  {39.0: {&#39;beta_c&#39;: tensor([0.1500])}, 6.0327: {&#39;gamma&#39;: tensor([0.4000])}}
+<span id="cb31-20"><a href="#cb31-20" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre>
+      </div>
+      <div class="output stream stdout">
+        <pre><code>Intervention:  {39.0: {&#39;beta_c&#39;: tensor([0.1500])}, 6.0327: {&#39;gamma&#39;: tensor([0.4000])}}
 Time taken:  10.36467456817627
 Risk associated with QoI: [33810.86929687499]
 </code></pre>
-</div>
-<div class="output execute_result" data-execution_count="19">
-<p><img
-src="vertopal_ed73d86613e540ab84c49649ae65c317/f2ed5552090b17859d61fb823b772d411a80d79c.png" /></p>
-</div>
-</div>
-<section
-id="optimize-interface-with-multiple-interventions-and-qoi-defined-as-max-over-range-of-simulated-time"
-class="cell markdown">
-<h2>Optimize interface with multiple interventions and QoI defined as
-max over range of simulated time</h2>
-<h3
-id="optimizing-multiple-intervention-values-seirhd-with-existing-intervention-on-hosp-parameter">Optimizing
-multiple intervention values (SEIRHD) with existing intervention on hosp
-parameter</h3>
-<p>Minimum change in two intervention parameters from their current
-values to get infections below 300,000 individuals betweeen 0-90 days
-for SEIRHD model</p>
-<ul>
-<li>Intervene on beta_c after 10 days</li>
-<li>Intervene on gamma after 15 days</li>
-</ul>
-<p>Intervention on "hosp" parameter is set to 0.1 after 10 days</p>
-</section>
-<div class="cell code" data-execution_count="20">
-<div class="sourceCode" id="cb33"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define optimization problem setup</span></span>
+      </div>
+      <div class="output execute_result" data-execution_count="19">
+        <p><img src="vertopal_ed73d86613e540ab84c49649ae65c317/f2ed5552090b17859d61fb823b772d411a80d79c.png" /></p>
+      </div>
+    </div>
+    <section id="optimize-interface-with-multiple-interventions-and-qoi-defined-as-max-over-range-of-simulated-time" class="cell markdown">
+      <h2>Optimize interface with multiple interventions and QoI defined as max over range of simulated time</h2>
+      <h3 id="optimizing-multiple-intervention-values-seirhd-with-existing-intervention-on-hosp-parameter">
+        Optimizing multiple intervention values (SEIRHD) with existing intervention on hosp parameter
+      </h3>
+      <p>
+        Minimum change in two intervention parameters from their current values to get infections below 300,000 individuals betweeen 0-90 days for
+        SEIRHD model
+      </p>
+      <ul>
+        <li>Intervene on beta_c after 10 days</li>
+        <li>Intervene on gamma after 15 days</li>
+      </ul>
+      <p>Intervention on "hosp" parameter is set to 0.1 after 10 days</p>
+    </section>
+    <div class="cell code" data-execution_count="20">
+      <div class="sourceCode" id="cb33">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define optimization problem setup</span></span>
 <span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>observed_params <span class="op">=</span> [<span class="st">&quot;I_state&quot;</span>]</span>
 <span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>intervention_time <span class="op">=</span> [torch.tensor(<span class="fl">10.0</span>), torch.tensor(<span class="fl">15.0</span>)]</span>
 <span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>intervened_params <span class="op">=</span> [<span class="st">&quot;beta_c&quot;</span>, <span class="st">&quot;gamma&quot;</span>]</span>
@@ -938,9 +1099,10 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a h
 <span id="cb33-37"><a href="#cb33-37" aria-hidden="true" tabindex="-1"></a>    solver_options<span class="op">=</span>{<span class="st">&quot;step_size&quot;</span>: <span class="fl">1.0</span>},</span>
 <span id="cb33-38"><a href="#cb33-38" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb33-39"><a href="#cb33-39" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Optimal policy:&quot;</span>, opt_result5[<span class="st">&quot;policy&quot;</span>])</span>
-<span id="cb33-40"><a href="#cb33-40" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(opt_result5)</span></code></pre></div>
-<div class="output stream stderr">
-<pre><code> 28%|██▊       | 33/120 [02:39&lt;06:09,  4.25s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
+<span id="cb33-40"><a href="#cb33-40" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(opt_result5)</span></code></pre>
+      </div>
+      <div class="output stream stderr">
+        <pre><code> 28%|██▊       | 33/120 [02:39&lt;06:09,  4.25s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
   warnings.warn(
  52%|█████▎    | 63/120 [04:37&lt;04:14,  4.46s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
   warnings.warn(
@@ -949,9 +1111,9 @@ C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning:
  79%|███████▉  | 95/120 [06:38&lt;01:46,  4.25s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
   warnings.warn(
 124it [08:25,  4.08s/it]                         </code></pre>
-</div>
-<div class="output stream stdout">
-<pre><code>Optimal policy: tensor([0.3500, 0.4602], dtype=torch.float64)
+      </div>
+      <div class="output stream stdout">
+        <pre><code>Optimal policy: tensor([0.3500, 0.4602], dtype=torch.float64)
 {&#39;policy&#39;: tensor([0.3500, 0.4602], dtype=torch.float64), &#39;OptResults&#39;:                     message: [&#39;requested number of basinhopping iterations completed successfully&#39;]
                     success: False
                         fun: 0.26016707274061507
@@ -967,19 +1129,20 @@ C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning:
                                 nfev: 30
                                maxcv: 0.0}
 </code></pre>
-</div>
-<div class="output stream stderr">
-<pre><code>
+      </div>
+      <div class="output stream stderr">
+        <pre><code>
 </code></pre>
-</div>
-</div>
-<section id="sample-using-optimal-policy-as-intervention"
-class="cell markdown">
-<h4>Sample using optimal policy as intervention</h4>
-</section>
-<div class="cell code" data-execution_count="21">
-<div class="sourceCode" id="cb37"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Fixed interventions: &quot;</span>, fixed_interventions)</span>
+      </div>
+    </div>
+    <section id="sample-using-optimal-policy-as-intervention" class="cell markdown">
+      <h4>Sample using optimal policy as intervention</h4>
+    </section>
+    <div class="cell code" data-execution_count="21">
+      <div class="sourceCode" id="cb37">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Fixed interventions: &quot;</span>, fixed_interventions)</span>
 <span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>opt_intervention <span class="op">=</span> combine_static_parameter_interventions([deepcopy(fixed_interventions), static_parameter_interventions(opt_result5[<span class="st">&quot;policy&quot;</span>])])</span>
 <span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Optimal intervention (including fixed interventions): &quot;</span>, opt_intervention)</span>
 <span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> pyro.poutine.seed(rng_seed<span class="op">=</span><span class="dv">0</span>):</span>
@@ -998,39 +1161,36 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a h
 <span id="cb37-17"><a href="#cb37-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Risk associated with QoI:&quot;</span>, result5[<span class="st">&quot;risk&quot;</span>][observed_params[<span class="dv">0</span>]][<span class="st">&quot;risk&quot;</span>])</span>
 <span id="cb37-18"><a href="#cb37-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot results for all states</span></span>
 <span id="cb37-19"><a href="#cb37-19" aria-hidden="true" tabindex="-1"></a>schema <span class="op">=</span> plots.trajectories(result5[<span class="st">&quot;data&quot;</span>], keep<span class="op">=</span><span class="st">&quot;I_state&quot;</span>, qlow<span class="op">=</span><span class="fl">0.0</span>, qhigh<span class="op">=</span><span class="fl">1.0</span>)</span>
-<span id="cb37-20"><a href="#cb37-20" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre></div>
-<div class="output stream stdout">
-<pre><code>Fixed interventions:  {10.0: {&#39;hosp&#39;: tensor(0.1000)}}
+<span id="cb37-20"><a href="#cb37-20" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre>
+      </div>
+      <div class="output stream stdout">
+        <pre><code>Fixed interventions:  {10.0: {&#39;hosp&#39;: tensor(0.1000)}}
 Optimal intervention (including fixed interventions):  {10.0: {&#39;hosp&#39;: tensor(0.1000), &#39;beta_c&#39;: tensor([0.3500])}, 15.0: {&#39;gamma&#39;: tensor([0.4602])}}
 Risk associated with QoI: [306010.22749999986]
 </code></pre>
-</div>
-<div class="output execute_result" data-execution_count="21">
-<p><img
-src="vertopal_ed73d86613e540ab84c49649ae65c317/56f4b960168e370543bb8c617e6f232fad28b2d3.png" /></p>
-</div>
-</div>
-<section id="optimize-interface-with-multiple-intervention-templates"
-class="cell markdown">
-<h2>Optimize interface with multiple intervention templates</h2>
-<h3
-id="optimizing-multiple-intervention-values-andor-start-times-with-existing-intervention-on-hosp-parameter-seirhd">Optimizing
-multiple intervention values and/or start times with existing
-intervention on hosp parameter (SEIRHD)</h3>
-<p>Get infections below 300,000 individuals betweeen 0-90 days for
-SEIRHD model</p>
-<ul>
-<li>Minimum change from their current value when intervening on beta_c
-after 10 days</li>
-<li>Maximum delay in starting the interventions on gamma with
-intervention value set to 0.35</li>
-</ul>
-<p>Intervention on "hosp" parameter is set to 0.1 after 10 days.</p>
-<p>QoI defined as max over range of simulated time.</p>
-</section>
-<div class="cell code" data-execution_count="22">
-<div class="sourceCode" id="cb39"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>intervened_params <span class="op">=</span> [<span class="st">&quot;beta_c&quot;</span>, <span class="st">&quot;gamma&quot;</span>, <span class="st">&quot;gamma_c&quot;</span>]</span>
+      </div>
+      <div class="output execute_result" data-execution_count="21">
+        <p><img src="vertopal_ed73d86613e540ab84c49649ae65c317/56f4b960168e370543bb8c617e6f232fad28b2d3.png" /></p>
+      </div>
+    </div>
+    <section id="optimize-interface-with-multiple-intervention-templates" class="cell markdown">
+      <h2>Optimize interface with multiple intervention templates</h2>
+      <h3 id="optimizing-multiple-intervention-values-andor-start-times-with-existing-intervention-on-hosp-parameter-seirhd">
+        Optimizing multiple intervention values and/or start times with existing intervention on hosp parameter (SEIRHD)
+      </h3>
+      <p>Get infections below 300,000 individuals betweeen 0-90 days for SEIRHD model</p>
+      <ul>
+        <li>Minimum change from their current value when intervening on beta_c after 10 days</li>
+        <li>Maximum delay in starting the interventions on gamma with intervention value set to 0.35</li>
+      </ul>
+      <p>Intervention on "hosp" parameter is set to 0.1 after 10 days.</p>
+      <p>QoI defined as max over range of simulated time.</p>
+    </section>
+    <div class="cell code" data-execution_count="22">
+      <div class="sourceCode" id="cb39">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>intervened_params <span class="op">=</span> [<span class="st">&quot;beta_c&quot;</span>, <span class="st">&quot;gamma&quot;</span>, <span class="st">&quot;gamma_c&quot;</span>]</span>
 <span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>static_parameter_interventions1 <span class="op">=</span> param_value_objective(</span>
 <span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>    param_name<span class="op">=</span>[intervened_params[<span class="dv">0</span>]],</span>
 <span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>    start_time<span class="op">=</span>[torch.tensor(<span class="fl">10.0</span>)],</span>
@@ -1050,16 +1210,19 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a h
 <span id="cb39-18"><a href="#cb39-18" aria-hidden="true" tabindex="-1"></a>    static_parameter_interventions1(torch.tensor(<span class="fl">0.4</span>)),</span>
 <span id="cb39-19"><a href="#cb39-19" aria-hidden="true" tabindex="-1"></a>    static_parameter_interventions2(torch.tensor(<span class="fl">5.0</span>)),</span>
 <span id="cb39-20"><a href="#cb39-20" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb39-21"><a href="#cb39-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(static_parameter_interventions_comb(torch.tensor([<span class="fl">0.3</span>, <span class="fl">5.0</span>])))</span></code></pre></div>
-<div class="output stream stdout">
-<pre><code>{10.0: {&#39;beta_c&#39;: tensor([0.4000])}} {5.0: {&#39;gamma&#39;: tensor([0.4000])}}
+<span id="cb39-21"><a href="#cb39-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(static_parameter_interventions_comb(torch.tensor([<span class="fl">0.3</span>, <span class="fl">5.0</span>])))</span></code></pre>
+      </div>
+      <div class="output stream stdout">
+        <pre><code>{10.0: {&#39;beta_c&#39;: tensor([0.4000])}} {5.0: {&#39;gamma&#39;: tensor([0.4000])}}
 {10.0: {&#39;beta_c&#39;: tensor([0.3000])}, 5.0: {&#39;gamma&#39;: tensor([0.4000])}}
 </code></pre>
-</div>
-</div>
-<div class="cell code" data-execution_count="23">
-<div class="sourceCode" id="cb41"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define optimization problem setup</span></span>
+      </div>
+    </div>
+    <div class="cell code" data-execution_count="23">
+      <div class="sourceCode" id="cb41">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define optimization problem setup</span></span>
 <span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>observed_params <span class="op">=</span> [<span class="st">&quot;I_state&quot;</span>]</span>
 <span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>risk_bound <span class="op">=</span> <span class="fl">3e5</span></span>
 <span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>qoi <span class="op">=</span> <span class="kw">lambda</span> y: obs_max_qoi(y, observed_params)</span>
@@ -1114,9 +1277,10 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a h
 <span id="cb41-53"><a href="#cb41-53" aria-hidden="true" tabindex="-1"></a>    solver_options<span class="op">=</span>{<span class="st">&quot;step_size&quot;</span>: <span class="fl">1.0</span>},</span>
 <span id="cb41-54"><a href="#cb41-54" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb41-55"><a href="#cb41-55" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Optimal policy:&quot;</span>, opt_result6[<span class="st">&quot;policy&quot;</span>])</span>
-<span id="cb41-56"><a href="#cb41-56" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(opt_result6)</span></code></pre></div>
-<div class="output stream stderr">
-<pre><code>  1%|          | 1/120 [00:07&lt;14:21,  7.24s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
+<span id="cb41-56"><a href="#cb41-56" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(opt_result6)</span></code></pre>
+      </div>
+      <div class="output stream stderr">
+        <pre><code>  1%|          | 1/120 [00:07&lt;14:21,  7.24s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
   warnings.warn(
   2%|▎         | 3/120 [00:11&lt;06:28,  3.32s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
   warnings.warn(
@@ -1243,9 +1407,9 @@ C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning:
 C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
   warnings.warn(
 124it [04:02,  1.96s/it]</code></pre>
-</div>
-<div class="output stream stdout">
-<pre><code>Optimal policy: tensor([ 0.1998, 12.1812], dtype=torch.float64)
+      </div>
+      <div class="output stream stdout">
+        <pre><code>Optimal policy: tensor([ 0.1998, 12.1812], dtype=torch.float64)
 {&#39;policy&#39;: tensor([ 0.1998, 12.1812], dtype=torch.float64), &#39;OptResults&#39;:                     message: [&#39;requested number of basinhopping iterations completed successfully&#39;]
                     success: False
                         fun: 0.09606939020723225
@@ -1261,21 +1425,22 @@ C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning:
                                 nfev: 30
                                maxcv: 1949.409374999872}
 </code></pre>
-</div>
-<div class="output stream stderr">
-<pre><code>
+      </div>
+      <div class="output stream stderr">
+        <pre><code>
 C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\interfaces.py:978: UserWarning: Optimal intervention policy does not satisfy constraints.Check if the risk_bounds value is appropriate for given problem.Otherwise, try (i) different initial_guess_interventions, (ii) increasing maxiter/maxfeval,and/or (iii) increase n_samples_ouu to improve accuracy of Monte Carlo risk estimation. 
   warnings.warn(
 </code></pre>
-</div>
-</div>
-<section id="sample-using-optimal-policy-as-intervention"
-class="cell markdown">
-<h4>Sample using optimal policy as intervention</h4>
-</section>
-<div class="cell code" data-execution_count="24">
-<div class="sourceCode" id="cb45"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Fixed interventions: &quot;</span>, fixed_interventions)</span>
+      </div>
+    </div>
+    <section id="sample-using-optimal-policy-as-intervention" class="cell markdown">
+      <h4>Sample using optimal policy as intervention</h4>
+    </section>
+    <div class="cell code" data-execution_count="24">
+      <div class="sourceCode" id="cb45">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Fixed interventions: &quot;</span>, fixed_interventions)</span>
 <span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>intervention_list <span class="op">=</span> [deepcopy(fixed_interventions)]</span>
 <span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>intervention_list.extend([static_parameter_interventions(opt_result6[<span class="st">&quot;policy&quot;</span>])])</span>
 <span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>opt_intervention <span class="op">=</span> combine_static_parameter_interventions(intervention_list)</span>
@@ -1296,41 +1461,42 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a h
 <span id="cb45-19"><a href="#cb45-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Risk associated with QoI:&quot;</span>, result6[<span class="st">&quot;risk&quot;</span>][observed_params[<span class="dv">0</span>]][<span class="st">&quot;risk&quot;</span>])</span>
 <span id="cb45-20"><a href="#cb45-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot results for all states</span></span>
 <span id="cb45-21"><a href="#cb45-21" aria-hidden="true" tabindex="-1"></a>schema <span class="op">=</span> plots.trajectories(result6[<span class="st">&quot;data&quot;</span>], keep<span class="op">=</span><span class="st">&quot;I_state&quot;</span>, qlow<span class="op">=</span><span class="fl">0.0</span>, qhigh<span class="op">=</span><span class="fl">1.0</span>)</span>
-<span id="cb45-22"><a href="#cb45-22" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre></div>
-<div class="output stream stdout">
-<pre><code>Fixed interventions:  {10.0: {&#39;hosp&#39;: tensor(0.1000)}}
+<span id="cb45-22"><a href="#cb45-22" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre>
+      </div>
+      <div class="output stream stdout">
+        <pre><code>Fixed interventions:  {10.0: {&#39;hosp&#39;: tensor(0.1000)}}
 Optimal intervention (including fixed interventions):  {10.0: {&#39;hosp&#39;: tensor(0.1000), &#39;beta_c&#39;: tensor([0.1998])}, 12.1812: {&#39;gamma&#39;: tensor([0.4500])}}
 Risk associated with QoI: [308213.24624999985]
 </code></pre>
-</div>
-<div class="output execute_result" data-execution_count="24">
-<p><img
-src="vertopal_ed73d86613e540ab84c49649ae65c317/171d13738b69bab213bd9f8ba83d686cde873bed.png" /></p>
-</div>
-</div>
-<section id="optimize-interface-with-multiple-constraints"
-class="cell markdown">
-<h2>Optimize interface with multiple constraints</h2>
-<h3
-id="optimizing-multiple-intervention-values-andor-start-times-with-multiple-constraints-for-different-qois-with-existing-intervention-on-hosp-parameter-seirhd">Optimizing
-multiple intervention values and/or start times with multiple
-constraints for different QoIs with existing intervention on hosp
-parameter (SEIRHD)</h3>
-<p>Get infections below 300,000 individuals (risk level 95%) and
-hospitalization below 100,000 individuals (risk level 90%) betweeen 0-90
-days for SEIRHD model</p>
-<ul>
-<li>Minimum change from their current value when intervening on beta_c
-after 10 days</li>
-<li>Maximum delay in starting the interventions on gamma with
-intervention value set to 0.35</li>
-</ul>
-<p>Intervention on "hosp" parameter is set to 0.1 after 10 days.</p>
-<p>QoI defined as max over range of simulated time.</p>
-</section>
-<div class="cell code" data-execution_count="25">
-<div class="sourceCode" id="cb47"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define optimization problem setup</span></span>
+      </div>
+      <div class="output execute_result" data-execution_count="24">
+        <p><img src="vertopal_ed73d86613e540ab84c49649ae65c317/171d13738b69bab213bd9f8ba83d686cde873bed.png" /></p>
+      </div>
+    </div>
+    <section id="optimize-interface-with-multiple-constraints" class="cell markdown">
+      <h2>Optimize interface with multiple constraints</h2>
+      <h3
+        id="optimizing-multiple-intervention-values-andor-start-times-with-multiple-constraints-for-different-qois-with-existing-intervention-on-hosp-parameter-seirhd"
+      >
+        Optimizing multiple intervention values and/or start times with multiple constraints for different QoIs with existing intervention on hosp
+        parameter (SEIRHD)
+      </h3>
+      <p>
+        Get infections below 300,000 individuals (risk level 95%) and hospitalization below 100,000 individuals (risk level 90%) betweeen 0-90 days
+        for SEIRHD model
+      </p>
+      <ul>
+        <li>Minimum change from their current value when intervening on beta_c after 10 days</li>
+        <li>Maximum delay in starting the interventions on gamma with intervention value set to 0.35</li>
+      </ul>
+      <p>Intervention on "hosp" parameter is set to 0.1 after 10 days.</p>
+      <p>QoI defined as max over range of simulated time.</p>
+    </section>
+    <div class="cell code" data-execution_count="25">
+      <div class="sourceCode" id="cb47">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define optimization problem setup</span></span>
 <span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>observed_params <span class="op">=</span> [[<span class="st">&quot;I_state&quot;</span>], [<span class="st">&quot;H_state&quot;</span>]]</span>
 <span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>risk_bound <span class="op">=</span> [<span class="fl">3e5</span>, <span class="fl">1e5</span>]</span>
 <span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a>alpha <span class="op">=</span> [<span class="fl">0.95</span>, <span class="fl">0.90</span>]</span>
@@ -1387,9 +1553,10 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a h
 <span id="cb47-55"><a href="#cb47-55" aria-hidden="true" tabindex="-1"></a>    solver_options<span class="op">=</span>{<span class="st">&quot;step_size&quot;</span>: <span class="fl">1.0</span>},</span>
 <span id="cb47-56"><a href="#cb47-56" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb47-57"><a href="#cb47-57" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Optimal policy:&quot;</span>, opt_result6[<span class="st">&quot;policy&quot;</span>])</span>
-<span id="cb47-58"><a href="#cb47-58" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(opt_result6)</span></code></pre></div>
-<div class="output stream stderr">
-<pre><code>  1%|          | 1/120 [00:07&lt;15:18,  7.72s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
+<span id="cb47-58"><a href="#cb47-58" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(opt_result6)</span></code></pre>
+      </div>
+      <div class="output stream stderr">
+        <pre><code>  1%|          | 1/120 [00:07&lt;15:18,  7.72s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
   warnings.warn(
   2%|▎         | 3/120 [00:12&lt;07:01,  3.61s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
   warnings.warn(
@@ -1456,9 +1623,9 @@ C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning:
  89%|████████▉ | 107/120 [05:15&lt;00:19,  1.53s/it]C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning: Selected interventions are out of bounds. Will use a penalty instead of estimating risk.
   warnings.warn(
 124it [06:19,  3.06s/it]                         </code></pre>
-</div>
-<div class="output stream stdout">
-<pre><code>Optimal policy: tensor([ 0.3500, 13.9001], dtype=torch.float64)
+      </div>
+      <div class="output stream stdout">
+        <pre><code>Optimal policy: tensor([ 0.3500, 13.9001], dtype=torch.float64)
 {&#39;policy&#39;: tensor([ 0.3500, 13.9001], dtype=torch.float64), &#39;OptResults&#39;:                     message: [&#39;requested number of basinhopping iterations completed successfully&#39;]
                     success: False
                         fun: -0.06177817727638459
@@ -1474,19 +1641,20 @@ C:\Users\Anirban\Documents\GitHub\pyciemss\pyciemss\ouu\ouu.py:106: UserWarning:
                                 nfev: 30
                                maxcv: 0.0}
 </code></pre>
-</div>
-<div class="output stream stderr">
-<pre><code>
+      </div>
+      <div class="output stream stderr">
+        <pre><code>
 </code></pre>
-</div>
-</div>
-<section id="sample-using-optimal-policy-as-intervention"
-class="cell markdown">
-<h4>Sample using optimal policy as intervention</h4>
-</section>
-<div class="cell code" data-execution_count="26">
-<div class="sourceCode" id="cb51"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Fixed interventions: &quot;</span>, fixed_interventions)</span>
+      </div>
+    </div>
+    <section id="sample-using-optimal-policy-as-intervention" class="cell markdown">
+      <h4>Sample using optimal policy as intervention</h4>
+    </section>
+    <div class="cell code" data-execution_count="26">
+      <div class="sourceCode" id="cb51">
+        <pre
+          class="sourceCode python"
+        ><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Fixed interventions: &quot;</span>, fixed_interventions)</span>
 <span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>intervention_list <span class="op">=</span> [deepcopy(fixed_interventions)]</span>
 <span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>intervention_list.extend([static_parameter_interventions(opt_result6[<span class="st">&quot;policy&quot;</span>])])</span>
 <span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>opt_intervention <span class="op">=</span> combine_static_parameter_interventions(intervention_list)</span>
@@ -1508,18 +1676,18 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a h
 <span id="cb51-20"><a href="#cb51-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Risk associated with QoI&quot;</span>, observed_params[<span class="dv">1</span>][<span class="dv">0</span>], result6[<span class="st">&quot;risk&quot;</span>][observed_params[<span class="dv">1</span>][<span class="dv">0</span>]][<span class="st">&quot;risk&quot;</span>])</span>
 <span id="cb51-21"><a href="#cb51-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot results for all states</span></span>
 <span id="cb51-22"><a href="#cb51-22" aria-hidden="true" tabindex="-1"></a>schema <span class="op">=</span> plots.trajectories(result6[<span class="st">&quot;data&quot;</span>], keep<span class="op">=</span>[<span class="st">&quot;I_state&quot;</span>, <span class="st">&quot;H_state&quot;</span>], qlow<span class="op">=</span><span class="fl">0.0</span>, qhigh<span class="op">=</span><span class="fl">1.0</span>)</span>
-<span id="cb51-23"><a href="#cb51-23" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre></div>
-<div class="output stream stdout">
-<pre><code>Fixed interventions:  {10.0: {&#39;hosp&#39;: tensor(0.1000)}}
+<span id="cb51-23"><a href="#cb51-23" aria-hidden="true" tabindex="-1"></a>plots.ipy_display(schema, dpi<span class="op">=</span><span class="dv">150</span>)</span></code></pre>
+      </div>
+      <div class="output stream stdout">
+        <pre><code>Fixed interventions:  {10.0: {&#39;hosp&#39;: tensor(0.1000)}}
 Optimal intervention (including fixed interventions):  {10.0: {&#39;hosp&#39;: tensor(0.1000), &#39;beta_c&#39;: tensor([0.3500])}, 13.9001: {&#39;gamma&#39;: tensor([0.4500])}}
 Risk associated with QoI I_state [352714.2268749998]
 Risk associated with QoI H_state [61172.588671874975]
 </code></pre>
-</div>
-<div class="output execute_result" data-execution_count="26">
-<p><img
-src="vertopal_ed73d86613e540ab84c49649ae65c317/8348f02bf544927f5481f99d78cb3fb74dc2c04e.png" /></p>
-</div>
-</div>
-</body>
+      </div>
+      <div class="output execute_result" data-execution_count="26">
+        <p><img src="vertopal_ed73d86613e540ab84c49649ae65c317/8348f02bf544927f5481f99d78cb3fb74dc2c04e.png" /></p>
+      </div>
+    </div>
+  </body>
 </html>
