@@ -120,30 +120,33 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- RenderCV Sections - Merge Experience and Volunteer -->
-        {% comment %} First, combine Experience and Volunteer entries {% endcomment %}
-        {% assign empty_array = '' | split: ',' %}
-        {% assign exp = cv.sections.Experience | default: empty_array %}
-        {% assign vol = cv.sections.Volunteer | default: empty_array %}
-        {% assign combined_experience = exp | concat: vol %}
-        {% if combined_experience.size > 0 %}
-          <a class="anchor" id="experience"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Experience</h3>
-            <div>
-              {% assign entries = combined_experience %}
-              {% include cv/experience.liquid %}
-            </div>
-          </div>
-        {% endif %}
+        <!-- RenderCV Sections - Render in order as defined in YAML -->
+        {% comment %} Track whether we've already rendered Experience/Volunteer combined {% endcomment %}
+        {% assign experience_rendered = false %}
 
-        {% comment %} Now render all other sections except Experience and Volunteer {% endcomment %}
         {% for section_pair in cv.sections %}
           {% assign section_title = section_pair[0] %}
           {% assign section_entries = section_pair[1] %}
 
-          {% comment %} Skip Experience and Volunteer as we've already processed them combined {% endcomment %}
+          {% comment %} Handle Experience and Volunteer: combine them and render only once {% endcomment %}
           {% if section_title == 'Experience' or section_title == 'Volunteer' %}
+            {% if experience_rendered == false %}
+              {% assign empty_array = '' | split: ',' %}
+              {% assign exp = cv.sections.Experience | default: empty_array %}
+              {% assign vol = cv.sections.Volunteer | default: empty_array %}
+              {% assign combined_experience = exp | concat: vol %}
+              {% if combined_experience.size > 0 %}
+                <a class="anchor" id="experience"></a>
+                <div class="card mt-3 p-3">
+                  <h3 class="card-title font-weight-medium">Experience</h3>
+                  <div>
+                    {% assign entries = combined_experience %}
+                    {% include cv/work-experience.liquid %}
+                  </div>
+                </div>
+                {% assign experience_rendered = true %}
+              {% endif %}
+            {% endif %}
             {% continue %}
           {% endif %}
 
@@ -178,6 +181,15 @@ layout: default
               {% elsif section_title == 'References' %}
                 {% assign entries = section_entries %}
                 {% include cv/references.liquid %}
+              {% elsif section_title == 'Research Experience' %}
+                {% assign entries = section_entries %}
+                {% include cv/research-experience.liquid %}
+              {% elsif section_title == 'Conference Presentations' %}
+                {% assign entries = section_entries %}
+                {% include cv/conference-presentations.liquid %}
+              {% elsif section_title == 'Invited Talks' %}
+                {% assign entries = section_entries %}
+                {% include cv/invited-talks.liquid %}
               {% else %}
                 <!-- Generic section -->
                 {% for entry in section_entries %}
