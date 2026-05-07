@@ -1,1 +1,259 @@
 cv:
+  name: Vignesh Sella
+  email: vsella@utexas.edu
+  location: Mountain View, CA
+  image: ""
+
+  social_networks:
+    - network: LinkedIn
+      username: vignesh-sella
+    - network: GitHub
+      username: VigneshSella
+
+  sections:
+    Education:
+      - institution: University of Texas at Austin
+        location: Austin, TX
+        area: Computational Science, Engineering, and Mathematics
+        studyType: PhD
+        start_date: 2022
+        end_date: present
+        highlights:
+          - "Co-Advisors: Dr. Karen Willcox & Dr. Anirban Chaudhuri"
+
+      - institution: University of Texas at Austin
+        location: Austin, TX
+        area: Computational Science, Engineering, and Mathematics
+        studyType: M.S.
+        start_date: 2021
+        end_date: 2023
+
+      - institution: University of Illinois at Urbana-Champaign
+        location: Urbana, IL
+        area: Aerospace Engineering, Minor in Computer Science
+        studyType: B.S.
+        start_date: 2017
+        end_date: 2021
+
+    Experience:
+      - company: Google
+        position: AI/ML Resident
+        location: Mountain View, CA
+        start_date: 2025-01
+        end_date: 2025-10
+        highlights:
+          - AI/ML R&D for an undisclosed project related to finance, decarbonization, and climate at X, the moonshot factory.
+
+      - company: Toyota
+        position: Data Scientist Intern
+        location: Salisbury, NC
+        start_date: 2022-05
+        end_date: 2022-08
+        highlights:
+          - Built a time-series analysis tool and an end-to-end testing method in Python to replace human-in-the-loop process saving in excess of 10% in operating costs
+          - Expedited data analysis timeline by 90% by building an ETL pipeline for wind tunnel data
+
+    Research Experience:
+      - company: Oden Institute for Computational Engineering and Sciences
+        position: Graduate Research Assistant
+        location: Austin, TX
+        start_date: 2021-07
+        end_date: present
+        highlights:
+          - Developing interpretable multi-fidelity (MF) deep learning and linear regression methods for high-dimensional, data-scarce problems on HPCs, resulting in 2 journal publications to date
+          - Contributed to DARPA-funded open-source causal inference and dynamical systems modeling toolkit by developing testing frameworks, validating methods using ODE-based COVID-19 epidemiological models
+          - Applied MF neural networks to airfoil optimization and MF linear regression to hypersonic vehicle pressure field prediction, achieving >95% accuracy at the same cost as single-fidelity methods
+
+      - company: National Center for Supercomputing Applications (NCSA)
+        position: Research Intern
+        location: Urbana, IL
+        start_date: 2020-08
+        end_date: 2021-05
+        highlights:
+          - Investigated the explainability of deep convolutional neural networks (CNNs) in TensorFlow through saliency maps and first principles yielding a contribution in a publication
+          - Constructed CNNs to predict Reynolds-averaged Navier-Stokes (RANS) computational fluid dynamics results from flow field and geometrical information
+
+      - company: UIUC Electric Propulsion Laboratory
+        position: Undergraduate Research Assistant
+        location: Urbana, IL
+        start_date: 2019-08
+        end_date: 2020-05
+        highlights:
+          - Created analytical model based off incompressible Navier-Stokes equation and control volume analysis of thrust stand to understand theoretical guarantees
+          - Improved electric micro-propulsion thrust stand accuracy by over 90% through hardware improvements
+
+      - company: UIUC Aerospace Controls & Optimization Group
+        position: Undergraduate Research Assistant
+        location: Urbana, IL
+        start_date: 2019-05
+        end_date: 2020-03
+        highlights:
+          - Translated model predictive control code in MATLAB to C++ through the IPOPT library
+
+    Publications:
+      - title: "Projection-based multifidelity linear regression for data-scarce applications"
+        authors:
+          - Vignesh Sella
+          - Julie Pham
+          - Karen Willcox
+          - Anirban Chaudhuri
+        publisher: Machine Learning for Computational Science and Engineering
+        releaseDate: 2025
+        summary: "Machine Learning for Computational Science and Engineering 1, no. 2 (2025): 47."
+
+      - title: "Multifidelity linear regression for scientific machine learning from scarce data"
+        authors:
+          - Elizabeth Qian
+          - Dayoung Kang
+          - Vignesh Sella
+          - Anirban Chaudhuri
+        publisher: Foundations of Data Science
+        releaseDate: 2025
+        summary: "Foundations of Data Science 7, no. 1 (2025): 271-297."
+
+      - title: "Improving neural network efficiency with multifidelity and dimensionality reduction techniques"
+        authors:
+          - Vignesh Sella
+          - Thomas O'Leary-Roseberry
+          - Xiaosong Du
+          - Mengwu Guo
+          - Joaquim R. Martins
+          - Omar Ghattas
+          - Karen E. Willcox
+          - Anirban Chaudhuri
+        publisher: AIAA SciTech 2025 Forum
+        releaseDate: 2025
+        summary: "AIAA SciTech 2025 Forum, p. 2807."
+
+      - title: "Projection-based multifidelity linear regression for data-poor applications"
+        authors:
+          - Vignesh Sella
+          - Julie Pham
+          - Anirban Chaudhuri
+          - Karen E. Willcox
+        publisher: AIAA SciTech 2023 Forum
+        releaseDate: 2023
+        summary: "AIAA SciTech 2023 Forum, p. 0916."
+
+      - title: "Turbomachinery blade surrogate modeling using deep learning"
+        authors:
+          - Shirui Luo
+          - Jiahuan Cui
+          - Vignesh Sella
+          - Jian Liu
+          - Seid Koric
+          - Volodymyr Kindratenko
+        publisher: International Conference on High Performance Computing
+        releaseDate: 2021
+        summary: "Springer International Publishing, pp. 92-104."
+
+      - title: "Development of a nytrox-paraffin hybrid rocket engine"
+        authors:
+          - Vignesh Sella
+          - Andrew Larkey
+          - Abhiraj Majumder
+          - Avinash Rao
+          - Zavar Abidi
+          - Nicolas Rasmont
+          - Aasheesh Randeo
+          - Miron Liu
+          - Avery Moore
+          - Michael F. Lembeck
+        publisher: AIAA Propulsion and Energy 2020 Forum
+        releaseDate: 2020
+        summary: "AIAA Propulsion and Energy 2020 Forum, p. 3729."
+
+    Conference Presentations:
+      - title: "Surrogate modeling for data-scarce applications using projection-based multifidelity linear regression"
+        authors:
+          - Vignesh Sella
+          - Julie Pham
+          - Anirban Chaudhuri
+          - Karen Willcox
+        date: 2024
+        awarder: Model Reduction and Surrogate Modeling 2024 (MORe24)
+
+      - title: "Multifidelity linear regression via a combined loss function for data-constrained applications"
+        authors:
+          - Vignesh Sella
+          - Julie Pham
+          - Anirban Chaudhuri
+          - Karen Willcox
+        date: 2024
+        awarder: WCCM 2024
+
+    Invited Talks:
+      - title: "Take your hobbies seriously!"
+        authors:
+          - Vignesh Sella
+        date: 2025
+        awarder: Google X Belonging Talks
+
+      - title: "Geospatial Foundation Models for Learned Feature Embeddings in Ecological Systems"
+        authors:
+          - Vignesh Sella
+          - Greg Bronevetsky
+        date: 2025
+        awarder: Google X Technical Talk
+
+    Awards:
+      - title: Google Belonging Award
+        date: 2025
+        awarder: Google
+
+      - title: Dean's List
+        date: 2020
+        awarder: University of Illinois at Urbana-Champaign
+        summary: "2019-2021"
+
+      - title: William R. Schowalter Scholarship
+        date: 2020-02
+        awarder: University of Illinois at Urbana-Champaign
+
+      - title: Research Support Grant
+        date: 2019-11
+        awarder: University of Illinois at Urbana-Champaign
+
+      - title: French Merit Award
+        date: 2019-04
+        awarder: University of Illinois at Urbana-Champaign
+
+      - title: Student Sustainability Grant
+        date: 2019-10
+        awarder: University of Illinois at Urbana-Champaign
+
+    Skills:
+      - name: Programming Languages / Frameworks
+        keywords: "Python, C++, CUDA, MATLAB, R, REST API, Node.js, Flask"
+
+      - name: Technologies
+        keywords: "SQL (MySQL), MLflow, AWS Aurora, Lambda, Glue, SQS, SNS, Kinesis, S3, HDFS, GCP BigQuery, Apache Beam, Hive, Redis, Git"
+
+      - name: Build / CI/CD
+        keywords: "Docker, Kubernetes, Jenkins, GitHub Actions"
+
+      - name: Data Science / ML
+        keywords: "PyTorch, TensorFlow, Keras, Scikit-learn, NumPy, Pandas"
+
+    Languages:
+      - name: English
+        summary: "Native"
+
+      - name: Marathi
+        summary: "Intermediate"
+
+      - name: French
+        summary: "Beginner"
+
+      - name: Spanish
+        summary: "Beginner"
+
+    Interests:
+      - name: Machine Learning
+        keywords: "Multi-fidelity methods, deep learning, scientific machine learning"
+
+      - name: Computational Science
+        keywords: "High-performance computing, surrogate modeling, numerical methods"
+
+      - name: Applied Mathematics
+        keywords: "Linear regression, dimensionality reduction, dynamical systems"
