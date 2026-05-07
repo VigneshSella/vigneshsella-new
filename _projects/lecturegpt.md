@@ -1,6 +1,6 @@
 ---
 layout: page
-title: LectureGPT — an open-source GPT-3 based AI-assistant
+title: "LectureGPT: an open-source GPT-3 based AI-assistant"
 description: A LLM fine-tuned on course lecture notes with retrieval augmented generation, creating a conversational AI-assistant for students to ask specific questions about their course material.
 img: assets/img/publication_preview/Full_GPT_architecture.svg.png
 importance: 1

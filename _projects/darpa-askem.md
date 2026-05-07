@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Automating Scientific Knowledge Extraction and Modeling (ASKEM)
-description: DARPA's ASKEM program — AI tools to create, sustain, and enhance complex models and simulators. Built and tested the Python backend for PyCIEMSS using ODE-based climate and COVID-19 epidemiology models.
+description: "DARPA's ASKEM program: AI tools to create, sustain, and enhance complex models and simulators. Built and tested the Python backend for PyCIEMSS using ODE-based climate and COVID-19 epidemiology models."
 img: assets/img/publication_preview/pyciemss.png
 importance: 1
 category: research
