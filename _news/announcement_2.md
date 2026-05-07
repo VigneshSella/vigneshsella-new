@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Published "Projection-based multifidelity linear regression for data-scarce applications" in Springer Nature Journal of Machine Learning for Computational Science and Engineering!
+Published a [journal article](https://link.springer.com/article/10.1007/s44379-025-00049-5) in the Springer Nature Journal of Machine Learning for Computational Science and Engineering special issue.
