@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-08'
+  last_updated: '2026-07-31'
 papers:
   WjrNUIUAAAAJ:9yKSN-GCB0IC:
     citations: 8
@@ -10,11 +10,11 @@ papers:
     title: Projection-based multifidelity linear regression for data-scarce applications
     year: '2025'
   WjrNUIUAAAAJ:UeHWp8X0CEIC:
-    citations: 6
+    citations: 7
     title: Improving neural network efficiency with multifidelity and dimensionality reduction techniques
     year: '2025'
   WjrNUIUAAAAJ:qjMakFHDy7sC:
-    citations: 7
+    citations: 9
     title: Multifidelity linear regression for scientific machine learning from scarce data
     year: '2024'
   WjrNUIUAAAAJ:u-x6o8ySG0sC:
