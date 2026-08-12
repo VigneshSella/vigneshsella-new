@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-31'
+  last_updated: '2026-08-12'
 papers:
   WjrNUIUAAAAJ:9yKSN-GCB0IC:
     citations: 8
@@ -22,6 +22,6 @@ papers:
     title: Development of a nytrox-paraffin hybrid rocket engine
     year: '2020'
   WjrNUIUAAAAJ:u5HHmVD_uO8C:
-    citations: 8
+    citations: 7
     title: Turbomachinery Blade Surrogate Modeling using Deep Learning
     year: '2021'
