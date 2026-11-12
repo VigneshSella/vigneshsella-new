@@ -91,6 +91,15 @@ cv:
           - Translated model predictive control code in MATLAB to C++ through the IPOPT library
 
     Publications:
+      - title: "Multifidelity operator inference for dynamical systems"
+        authors:
+          - Vignesh Sella
+          - Anirban Chaudhuri
+          - Karen E. Willcox
+        publisher: AIAA SciTech 2027 Forum
+        releaseDate: 2026
+        summary: "AIAA SciTech 2027 Forum (preprint, submitted)."
+
       - title: "Projection-based multifidelity linear regression for data-scarce applications"
         authors:
           - Vignesh Sella
