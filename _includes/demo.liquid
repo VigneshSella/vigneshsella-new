@@ -1,0 +1,18 @@
+{% comment %}
+  Embed a self-contained interactive demo (HTML/JS) in a page or post.
+  Usage: {% include demo.liquid path="assets/demos/mflr/index.html" height="600px" %}
+  The demo lives in its own folder, so it can use any library without affecting the rest of the site.
+{% endcomment %}
+{% assign demo_url = include.path | relative_url %}
+<figure class="demo">
+  <iframe
+    src="{{ demo_url }}"
+    title="{{ include.title | default: 'Interactive demo' }}"
+    loading="lazy"
+    style="width: 100%; height: {{ include.height | default: '600px' }}; border: 1px solid var(--global-divider-color); border-radius: 0.25rem;"
+  ></iframe>
+  <figcaption class="caption">
+    {% if include.caption %}{{ include.caption }} · {% endif -%}
+    <a href="{{ demo_url }}" target="_blank" rel="noopener">open full screen</a>
+  </figcaption>
+</figure>

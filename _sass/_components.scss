@@ -169,35 +169,28 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// Social (bottom)
+// Social (compact row under the bio on the about page)
 
 .social {
-  text-align: center;
+  margin: 0.5rem 0 1.5rem;
 
   .contact-icons {
-    font-size: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.1rem;
+    font-size: 1.35rem;
+    line-height: 1;
 
     a {
-      img {
-        width: 3.2rem;
-        height: 3.2rem;
-        margin-bottom: 1rem;
-      }
-
+      img,
       svg {
-        width: 3.5rem;
-        height: 4rem;
-        margin-bottom: 0.5rem;
-
-        image {
-          width: 3.5rem;
-          height: 3.5rem;
-        }
+        width: 1.35rem;
+        height: 1.35rem;
       }
 
       i::before {
-        color: var(--global-text-color);
-        transition-property: all 0.2s ease-in-out;
+        color: var(--global-text-color-light);
+        transition: color 0.15s ease-in-out;
       }
 
       &:hover {
@@ -212,6 +205,7 @@ ul.task-list input[type="checkbox"] {
 
   .contact-note {
     font-size: 0.8rem;
+    margin-top: 0.5rem;
   }
 }
 
