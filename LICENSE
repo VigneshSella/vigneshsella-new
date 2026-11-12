@@ -1,3 +1,27 @@
+This repository contains material under different terms.
+
+1. Blog posts and project pages: Copyright (c) 2026 Vignesh Sella, licensed
+   under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+   You may share and adapt them, provided you give appropriate credit to
+   Vignesh Sella, link to the license, and indicate if changes were made.
+   License text: https://creativecommons.org/licenses/by/4.0/
+
+   This covers the contents of _posts/ and _projects/, including the figures
+   and interactive demos that appear in them.
+
+2. All other content: Copyright (c) 2026 Vignesh Sella. All rights reserved.
+
+   This includes the CV (_data/cv.yml, _pages/cv.md, and any CV PDF), the about
+   page and biography, photographs of Vignesh Sella, news items, and the
+   bibliography. Published papers remain subject to the terms of their
+   respective publishers.
+
+3. Website code (layouts, includes, styles, scripts, and configuration), derived
+   from the al-folio Jekyll theme (https://github.com/alshedivat/al-folio),
+   is licensed under the MIT License below.
+
+--------------------------------------------------------------------------------
+
 The MIT License (MIT)
 
 Copyright (c) 2026 Vignesh Sella
