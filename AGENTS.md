@@ -18,6 +18,6 @@ docker compose down
 ## Notes
 
 - `_config.yml`: `url: https://www.vsella.com`, `baseurl:` empty. Quote YAML strings containing special characters.
-- CV is rendered from `_data/cv.yml` via rendercv (`assets/rendercv/`, `.github/workflows/render-cv.yml`).
+- The /cv/ page is rendered from `_data/cv.yml`. The downloadable CV PDF is maintained separately on Google Drive (`cv_pdf` in `_data/socials.yml` and `_pages/cv.md`).
 - Google Scholar citations are updated by `.github/workflows/update-citations.yml`.
 - Commit conventions: see [.github/GIT_WORKFLOW.md](.github/GIT_WORKFLOW.md).
